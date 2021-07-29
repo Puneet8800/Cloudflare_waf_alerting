@@ -12,7 +12,7 @@ AWS Lambda, Rundeck or any cron. set this cron for every 5mins or depending on t
 
 ### Configuration Steps
 1. Follow this for creating Cloudflare API token: https://developers.cloudflare.com/analytics/graphql-api/getting-started/authentication/api-token-auth
-2. After obtaining API change it in the code and also put the email id which is used on Cloudflare.
+2. After obtaining API Token change it in the code along with the Zone ID and also put the email id which is used on Cloudflare.
 3. Put Slack Incoming webhook URL in the code.
 4. Run this code on your AWS Lambda.
 5. Trigger Lambda with Cloudwatch rule, which triggers the lambda in every 5 mins.
